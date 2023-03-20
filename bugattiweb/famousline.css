@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+.mainpic{
+    background-image: url("https://www.bugatti.com/fileadmin/_processed_/sei/p665/se-image-82b251d67c938bb56fc1702a5a50f341.webp");
+    width: auto;
+    height: 82.1vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+html {
+    scroll-behavior: smooth;
+   }
+   #logo{
+    height: auto;
+    width: 5vh;
+    float: right;
+    margin-right: 3vh;
+    margin-top: 3vh;
+    background: none;
+    
+}
+.first, .second, .third{
+    background-color: rgb(239, 239, 239);
+}
+.first {
+    width: auto;
+    height: 70vh;
+    
+    
+}
+   #textfirst{
+    width: 65vh;
+    height: 35vh;
+    display: inline-block;
+    text-align: left;
+    margin-left: 14vh;
+    margin-top: 8vh;
+}
+#textfirst p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#firstpic{
+    float: right;
+    width: auto;
+    height: 70vh;
+    
+}
+.second {
+    width: auto;
+    height: 69.2vh;
+    
+}
+#textsecond{
+    width: 65vh;
+    height: 35vh;
+    display: inline-block;
+    text-align: right;
+    margin-left: 28vh;
+    margin-top: 2vh;
+    
+}
+#secondpic{
+    float: left;
+    width: auto;
+    height: 69.2vh;
+    
+}
+.third {
+    width: auto;
+    height: 70vh;
+    
+}
+#textthird{
+    width: 65vh;
+    height: 35vh;
+    display: inline-block;
+    text-align: left;
+    margin-left: 14vh;
+    margin-top: 4vh;
+}
+#thirdpic{
+    float: right;
+    width: auto;
+    height: 70vh;
+}
+.last {
+    width: 100%;
+    height: auto;   
+}
+#lastpic {
+    width: 100%;
+}
+
+#one{
+    font-size: 3vh;
+    font-weight: 600;
+    
+}
+#two{
+    font-size: 1.7vh;
+    
+}
+#three{
+    font-size: 2.3vh;
+}
+#topBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white;
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+   #topBtn:hover {
+    background-color: #555;
+  }
